@@ -1,4 +1,4 @@
 # PcMarket - Soso
 
 ## Used resources
-- [Fake Store API](https://fakestoreapi.com/docs)
+- [DummyJSON](https://dummyjson.com/docs/products)
