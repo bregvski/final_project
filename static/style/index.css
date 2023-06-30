@@ -1,0 +1,234 @@
+/* General overrides */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+p {
+  color: #555;
+}
+ul {
+  list-style-type: none;
+}
+small {
+  color: #000000;
+}
+h4 {
+  color: #000000;
+  font-weight: normal;
+}
+
+input {
+  border: 1px #777 solid;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1e90ff;
+}
+
+
+/* Navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: radial-gradient(#fff, #add8e6);
+  text-align: right;
+}
+nav ul {
+  flex: 1;
+  display: inline-block;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* .menu_icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+  }
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #000000;
+    width: 100%;
+  }
+  nav li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav li a {
+    color: #fff;
+  }
+  .menu_icon {
+    display: block;
+    cursor: pointer;
+  }
+} */
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background: #191970;
+}
+
+/* Footer */
+
+.footer {
+  background: #191970;
+  color: #fff;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #fff;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.app-logo {
+  margin-top: 20px;
+}
+
+.app-logo img {
+  width: 140px;
+}
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.pcmarket {
+  text-align: center;
+}
+
+
+/* General */
+.rating {
+  color: #ff523b;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* Col 2 */
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+/* Col 3 */
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+
+/* Col 4 */
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition-duration: 150ms;
+}
+.col-4 img {
+  width: 100%;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.col-4 :hover {
+  transform: translateY(-5px);
+}
+
+/* Col 5 */
+
+.col-5 {
+  width: 160px;
+}
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover {
+  filter: grayscale(0);
+}

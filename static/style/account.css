@@ -1,0 +1,22 @@
+main {
+  height: calc(100vh - 130px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 17rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+#error_container{
+  color: #e33;
+  font-weight: 700
+}

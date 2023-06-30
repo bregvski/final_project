@@ -1,0 +1,91 @@
+.container {
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  width: 250px;
+}
+
+main {
+  width: 100%;
+}
+
+.filters_container { 
+  display: flex;
+  flex-direction: column;
+}
+ 
+
+.filters_container > div { 
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  height: 3rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+  align-items: center;
+}
+
+#products_container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  place-content: stretch;
+}
+
+#products_container > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deleteButton {
+  position: absolute;
+  background-color: red;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  right: 5px;
+  top: 5px;
+  transition: all;
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  opacity: 0.5;
+}
+
+#products_container img {
+  display: block;
+  height: 12rem;
+  object-fit: fill;
+}
+
+.add_product {
+  font-size: 1.3rem;
+  width: 50%;
+  margin: auto;
+  aspect-ratio: 1/1;
+  opacity: 0.75;
+  background-color: #14981f;
+  color: #000;
+  border: #108119 2px solid;
+  border-radius: 12px;
+  transition: all;
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+.add_product:hover {
+  opacity: 1;
+}

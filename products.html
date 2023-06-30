@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PC market</title>
+    <link
+      rel="shortcut icon"
+      href="static/image/logo1.jpg"
+      type="static/image/x-icon"
+    />
+    <link rel="stylesheet" href="static/style/index.css" />
+    <link rel="stylesheet" href="static/style/products.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!--------navbar------->
+    <nav class="navbar">
+      <a href="/index.html">
+        <img src="static/image/logo1.jpg" width="125px" />
+      </a>
+      <ul id="menuitems">
+        <li><a href="/index.html">home</a></li>
+        <li><a href="/products.html">Product</a></li>
+        <!-- <li><a href="">about</a></li> -->
+        <!-- <li><a href="">contact</a></li> -->
+        <li><a href="/account.html">account</a></li>
+      </ul>
+      <!-- <img src="static/image/cart.png" width="30px" height="30px" /> -->
+    </nav>
+
+    <form class="container" id="filter">
+      <aside>
+        <h3>Filters</h3>
+        <div class="filters_container">
+          <div>
+            <h4>Brand</h4>
+            <label>
+              <input type="checkbox" value="Apple" name="brand" />
+              <span>Apple</span>
+            </label>
+            <label>
+              <input type="checkbox" value="Samsung" name="brand" />
+              <span>Samsung</span>
+            </label>
+            <label>
+              <input type="checkbox" value="Microsoft" name="brand" />
+              <span>Microsoft</span>
+            </label>
+            <label>
+              <input type="checkbox" value="Surface" name="brand" />
+              <span>Surface </span>
+            </label>
+            <label>
+              <input type="checkbox" value="Infinix" name="brand" />
+              <span>Infinix</span>
+            </label>
+            <label>
+              <input type="checkbox" value="OPPO" name="brand" />
+              <span>OPPO</span>
+            </label>
+            <label>
+              <input type="checkbox" value="Huawei" name="brand" />
+              <span>Huawei</span>
+            </label>
+            <label>
+              <input type="checkbox" value="HP Pavilion" />
+              <span>HP Pavilion</span>
+            </label>
+          </div>
+        </div>
+        <button class="btn" type="submit">Filter</button>
+      </aside>
+      <main>
+        <div class="search">
+          <input
+            type="text"
+            name="search"
+            id="search_input"
+            placeholder="Chair, keyboard..."
+          />
+          <button class="btn" type="submit">Search</button>
+        </div>
+        <div id="products_container"></div>
+      </main>
+    </form>
+
+    <!--------footer------->
+    <div class="footer">
+      <div>
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download app for android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="static/image/app-store.png" />
+              <img src="static/image/play-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="static/image/logo1.jpg" />
+            <p>
+              Our purpose is to sustainable make the pleasure and benefits of
+              computer accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return policy</li>
+              <li>Join affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="pcmarket">soso bregvadze - pcmarket</p>
+      </div>
+    </div>
+  </body>
+  <script src="static/js/products.js" defer></script>
+</html>
